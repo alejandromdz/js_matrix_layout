@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+    
+}
+#container{
+    display:flex;
+    flex-direction: row;
+    width:800px;
+    margin: 0px auto;
+    padding:25px 25px;
+    flex-wrap: wrap;
+}
+
+#container>div
+{
+    height: 200px;
+    width: 200px;
+    background-color:black;
+    color:white;
+    margin:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: arial;
+    font-size: 50px;
+    text-transform: uppercase;
+}
